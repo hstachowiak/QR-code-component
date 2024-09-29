@@ -1,0 +1,52 @@
+.body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: gray;
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.qr-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(213, 225, 239, 255);
+}
+
+.content-box {
+  width: 320px;
+  height: 480px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.qr-graphic {
+  padding: 15px;
+  width: 290px;
+  border-radius: 25px;
+}
+
+.qr-description {
+  text-align: center;
+  padding: 0px 25px;
+}
